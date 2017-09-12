@@ -1,6 +1,6 @@
 package youDoIt;
 
-public class ParadiseInfo {
+public class ParadiseInfo2 {
 	
 
 
