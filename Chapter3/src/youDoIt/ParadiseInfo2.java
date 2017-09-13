@@ -21,7 +21,7 @@ public class ParadiseInfo2 {
 				;		
 		displayInfo();
 		
-		computeDiscountInfo();
+		savings = computeDiscountInfo(price, discount);	
 		
 		System.out.println("Special this week on any service over "+ price);
 		System.out.println("Discount of"+ discount +" percent");
@@ -30,21 +30,18 @@ public class ParadiseInfo2 {
 	public static void displayInfo() 
 	{
 		
+		
 		System.out.println("Paradise Day Spa wants to pamper you.");
 		System.out.println("We will make you look good.");
 		
 	}
-	public static void computeDiscountInfo() 
-	{
-	
-	savings = computeDiscountInfo(price, discount);	
-		
-	}
 	public static double computeDiscountInfo(double pr, double dscnt)
 	{
+		
 		double savings;
 		savings = pr * dscnt / 100;
 		return savings;
+		
 	
 	}
 	
