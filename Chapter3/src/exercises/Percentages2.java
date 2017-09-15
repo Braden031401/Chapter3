@@ -19,12 +19,11 @@ public class Percentages2 {
 }
 public static void computePercent(double x, double y)
 {
-
 	double Percent1 = (int) Math.ceil((x/y)*100);
 	double Percent2 = (int) Math.ceil((y/x)*100);
 	
-	
 	System.out.println(x +" is "+ Percent1 +"% of "+ y);
 	System.out.println(y +" is "+ Percent2 +"% of "+ x);
+	
 	}
 } 
